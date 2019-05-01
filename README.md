@@ -10,7 +10,7 @@ argument on the command line
 Example usage:
 
 ```bash
-python3 convert.py sources/sources/02\ Black\ Mambo.aiff
+python3 convert.py sources/02\ Black\ Mambo.aiff
 ```
 
 # Dependencies
