@@ -6,10 +6,7 @@ song_name = audio_source_file.split('.')[0].split('/')[1]
 print(song_name)
 
 #import audio file
-lossless_audio = AudioSegment.from_file(
-    audio_source_file,
-    format='aiff'
-)
+lossless_audio = AudioSegment.from_file(audio_source_file)
 
 #make a directory for mp3s with same name as song
 if not os.path.exists('mp3s/' + song_name):
